@@ -1,6 +1,6 @@
-package lab4;
+package lab5;
 
-import lab4.Point;
+import lab5.Point;
 
 public class Triangle {
 	Point A;
