@@ -1,4 +1,6 @@
-package lab4;
+package lab5;
+
+import lab5.Point;
 
 public class Rectangle {
     Point a, b, c, d;
@@ -23,7 +25,7 @@ public class Rectangle {
      * @return the perimeter of the rectangle
      */
     public double perimeter() {
-        return a.distance(b) + b.distance(c) + c.distance(d) + d.distance(a);
+        return a.distance(b) + b.distance(d) + c.distance(a) + d.distance(c);
     }
 
     /**
